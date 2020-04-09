@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html">
+  <link rel="stylesheet" type="text/css" media="all" href="css/styles.css">
+  <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+</head>
+
+<body>
+  <div id="topbar">
+  <a href="https://www.diplocover.at//">Back to Benutzerseite</a>
+  </div>
+
+  <div id="w">
+    <div id="content" class="clearfix">
+      <div id="userphoto"><img src="images/avatar.png" alt="default avatar"></div>
+      <h1>Jogge Deeee Sauerkraut</h1>
+
+      <nav id="profiletabs">
+        <ul class="clearfix">
+          <li><a href="#Bio" class="sel">Bio</a></li>
+          <li><a href="#Dokumente">Dokumente</a></li>
+          <li><a href="#Team">Team</a></li>
+          <li><a href="#Settings">Settings</a></li>
+        </ul>
+      </nav>
+
+      <section id="bio">
+        <p>Boran Cihan Polat <a href="https://www.diplocover.at//">Diplocover</a>.</p>
+          <p>Tel:. *************</p>
+          <p> E-mail:. *******************</p>
+      </section>
+
+      <section id="Dokumente" class="hidden">
+        <p>Most recent actions:</p>
+
+        <p class="Dokumente">Lebenslauf</p>
+
+        <p class="Dokumente">Zeugnis</p>
+
+        <p class="Dokumente">REFA Zertifizierung</p>
+
+        <p class="Dokumente">ECDL-Führerschein</p>
+
+      </section>
+
+      <section id="Team" class="hidden">
+        <p>Friends list:</p>
+
+        <ul id="Teamlist" class="clearfix">
+          <li><a href="#"><img src="images/avatar.png" width="22" height="22"> Jogge Deeeeeeee</a></li>
+          <li><a href="#"><img src="images/avatar.png" width="22" height="22">Miky Kröll</a></li>
+          <li><a href="#"><img src="images/avatar.png" width="22" height="22">Kaltenbrunner</a></li>
+        </ul>
+      </section>
+
+      <section id="Settings" class="hidden">
+        <p>Edit your user settings:</p>
+
+        <p class="Setting"><span>E-mail Address <img src="images/edit.png" alt="*Edit*"></span> lolno@gmail.com</p>
+
+        <p class="Setting"><span> Tele <img src="images/edit.png" alt="*Edit*"></span> *******(US)</p>
+
+        <p class="Setting"><span>Profile Status <img src="images/edit.png" alt="*Edit*"></span> In einem Team / Solo</p>
+
+        <p class="Setting"><span>Team verwalten<img src="images/edit.png" alt="*Edit*"></span></p>
+
+        <p class="Setting"><span>Dokumente hinzufügen<img src="images/edit.png" alt="*Edit*"></span> None</p>
+
+        <p class="Setting"><span> Sprache<img src="images/edit.png" alt="*Edit*"></span> None</p>
+
+      </section>
+    </div><!-- @end #content -->
+  </div><!-- @end #w -->
+<script type="text/javascript">
+$(function(){
+  $('#profiletabs ul li a').on('click', function(e){
+    e.preventDefault();
+    var newcontent = $(this).attr('href');
+
+    $('#profiletabs ul li a').removeClass('sel');
+    $(this).addClass('sel');
+
+    $('#content section').each(function(){
+      if(!$(this).hasClass('hidden')) { $(this).addClass('hidden'); }
+    });
+
+    $(newcontent).removeClass('hidden');
+  });
+});
+</script>
+</body>
+</html>

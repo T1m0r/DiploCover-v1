@@ -1,0 +1,7 @@
+Options +Indexes
+RemoveHandler .html
+RemoveType .html
+AddType text/html .html
+Satisfy any
+ErrorDocument 404 https://www.diplocover.at/404.html
+

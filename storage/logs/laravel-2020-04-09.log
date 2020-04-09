@@ -1,0 +1,83 @@
+[2020-04-09 13:40:03] local.ERROR: include(D:\Programms\xampp\htdocs\diplcver\vendor\composer/../laracasts/generators/src/GeneratorsServiceProvider.php): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): include(D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\composer/../laracasts/generators/src/GeneratorsServiceProvider.php): failed to open stream: No such file or directory at D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\composer\\ClassLoader.php:444)
+[stacktrace]
+#0 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\composer\\ClassLoader.php(444): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'include(D:\\\\Prog...', 'D:\\\\Programms\\\\xa...', 444, Array)
+#1 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\composer\\ClassLoader.php(444): include()
+#2 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\Programms\\\\xa...')
+#3 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('Laracasts\\\\Gener...')
+#4 [internal function]: spl_autoload_call('Laracasts\\\\Gener...')
+#5 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\backpack\\base\\src\\BaseServiceProvider.php(151): class_exists('Laracasts\\\\Gener...')
+#6 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(573): Backpack\\Base\\BaseServiceProvider->register()
+#7 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Backpack\\Base\\BaseServiceProvider))
+#8 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(548): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#9 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#10 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(206): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#11 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#12 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#13 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#14 D:\\Programms\\xampp\\htdocs\\diplcver\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#15 {main}
+"} 
+[2020-04-09 13:41:35] local.ERROR: Class 'Laracasts\Generators\GeneratorsServiceProvider' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class 'Laracasts\\Generators\\GeneratorsServiceProvider' not found at D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php:208)
+[stacktrace]
+#0 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(144): Illuminate\\Foundation\\ProviderRepository->createProvider('Laracasts\\\\Gener...')
+#1 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#2 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(548): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#3 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(206): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(297): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(120): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 D:\\Programms\\xampp\\htdocs\\diplcver\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2020-04-09 13:42:22] local.ERROR: Class 'Laracasts\Generators\GeneratorsServiceProvider' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class 'Laracasts\\Generators\\GeneratorsServiceProvider' not found at D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php:208)
+[stacktrace]
+#0 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(144): Illuminate\\Foundation\\ProviderRepository->createProvider('Laracasts\\\\Gener...')
+#1 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#2 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(548): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#3 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(206): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#7 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#8 D:\\Programms\\xampp\\htdocs\\diplcver\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#9 {main}
+"} 
+[2020-04-09 13:45:00] local.ERROR: Class 'Laracasts\Generators\GeneratorsServiceProvider' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class 'Laracasts\\Generators\\GeneratorsServiceProvider' not found at D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php:208)
+[stacktrace]
+#0 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(144): Illuminate\\Foundation\\ProviderRepository->createProvider('Laracasts\\\\Gener...')
+#1 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#2 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(548): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#3 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(206): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#7 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#8 D:\\Programms\\xampp\\htdocs\\diplcver\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#9 {main}
+"} 
+[2020-04-09 13:45:07] local.ERROR: Class 'Laracasts\Generators\GeneratorsServiceProvider' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class 'Laracasts\\Generators\\GeneratorsServiceProvider' not found at D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php:208)
+[stacktrace]
+#0 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(144): Illuminate\\Foundation\\ProviderRepository->createProvider('Laracasts\\\\Gener...')
+#1 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#2 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(548): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#3 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(206): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#7 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#8 D:\\Programms\\xampp\\htdocs\\diplcver\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#9 {main}
+"} 
+[2020-04-09 13:53:37] local.ERROR: Class 'Laracasts\Generators\GeneratorsServiceProvider' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class 'Laracasts\\Generators\\GeneratorsServiceProvider' not found at D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php:208)
+[stacktrace]
+#0 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(144): Illuminate\\Foundation\\ProviderRepository->createProvider('Laracasts\\\\Gener...')
+#1 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#2 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(548): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#3 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(206): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#7 D:\\Programms\\xampp\\htdocs\\diplcver\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#8 D:\\Programms\\xampp\\htdocs\\diplcver\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#9 {main}
+"} 

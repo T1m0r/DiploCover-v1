@@ -1,0 +1,94 @@
+@extends('layouts.app')
+
+@section('content')
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header">{{ __('Create new standalone Teacher') }}</div>
+
+                    <div class="card-body">
+                        {{csrf_field()}}
+                        {!! Form::open(array('action' => 'TeacherController@store', 'method'=>'post')) !!}
+                        {{Form::token()}}
+                        <div class="form-group row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    {!! Form::label('firstname', 'Firstname:') !!}
+                                    {!! Form::text('firstname', null,['placeholder'=>'Firstname of the teacher', 'required','class'=>'form-control']) !!}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    {!! Form::label('lastname', 'Lastname:') !!}
+                                    {!! Form::text('lastname', null,['placeholder'=>'Lastname of the teacher', 'required','class'=>'form-control']) !!}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            {!! Form::label('email', 'Email:') !!}
+                            {!! Form::email('email',null,['placeholder'=>'email@mail.com','required', 'class'=>'form-control']) !!}
+                        </div>
+                        <div class="form-group">
+                            {!! Form::label('schoolID', 'Schoolnumber:') !!}
+                            {!! Form::text('schoolID',null,['placeholder'=>'idh389hdwsjlk','required', 'class'=>'form-control','id'=>'school_ID']) !!}
+                            <div id="schoolid_resp" class="response">
+                                <h1>Hello :D</h1>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            {!! Form::label('registercode', 'Registrierungscode:') !!}
+                            {!! Form::text('registercode',null,['placeholder'=>'1242wqwe5353','required', 'class'=>'form-control']) !!}
+                        </div>
+
+                        <div class="form-group">
+                            {!!Form::submit('Create School', ['class'=>'btn btn-primary']) !!}
+                        </div>
+                        {!! Form::close() !!}
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+@endsection
+@section('jspace')
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous">
+    </script>
+
+@endsection
+
+
+
+<script src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+</script>
+<script>
+    jQuery(document).ready(function(){
+        jQuery('#ajaxSubmit').click(function(e){
+            e.preventDefault();
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="_token"]').attr('content')
+                }
+            });
+            jQuery.ajax({
+                url: "{{ route('teacher_check') }}",
+                method: 'post',
+                data: {
+                    schoolID: jQuery('#schoolID').val(),
+                },
+                success: function(result){
+                    console.log(result);
+                }});
+        });
+    });
+</script>

@@ -1,0 +1,253 @@
+
+.Teacher{
+  background-color: #64bf8d;
+  font-family: 'Open Sans', sans-serif;
+}
+.Student{
+  background-color:#57ADCA;
+  font-family: 'Open Sans', sans-serif;
+}
+.Firma{
+  background-color:#D0D293;
+  font-family: 'Open Sans', sans-serif;
+}
+.Layoutbuttons{
+  background-color: #81B0C0;
+  border: none;
+  color: white;
+  padding: auto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: auto;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  border-radius: 10px;
+}
+.Linkbutton{
+  background-color: #B4CF5C;
+  border: none;
+  color: black;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  border-radius: 10px;}
+.Deletebutton{
+  background-color: #D14646;
+  border: none;
+  color: #FF0000;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.Settingsbutton{
+  background-color:#A5D981;
+  border: none;
+  color:black;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.PDF-Button{
+  background-color: #4C4C4C;
+  width:auto;
+  border: none;
+  color: #FFFFFF;
+  padding: auto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: auto;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  border-radius: 10px;
+}
+.Updatebutton{
+  background-color: #0F76DD;
+  width:auto;
+  border: none;
+  color: #FFFFFF;
+  padding: auto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: auto;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  border-radius: 10px;
+}
+.Listenbutton{
+  background-color:white;
+  width:auto;
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  color:black;
+  padding: auto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: auto;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.Languagebutton{
+  background-color:#1B8E4E;
+  width:auto;
+  border: none;
+  color: #FFFFFF;
+  padding: auto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: auto;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  border-radius: 10px;
+}
+.Plus-Button{
+  width:auto;
+  background-color: white;
+  color: black;
+  padding: auto;
+  margin: auto;
+  border: none;
+  border-radius: 50px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-align: center;
+}
+.Logout-Button{
+  width:auto;
+  background-color:#D37572;
+  color: black;
+  padding: auto;
+  margin: auto;
+  border: none;
+  border-radius: 50px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-align: center;
+}
+.SignIn-Button{
+  width:auto;
+  background-color:#BA97D4;
+  color: black;
+  padding: auto;
+  margin: auto;
+  border: none;
+  border-radius: 50px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-align: center;
+}
+.AboutMe{
+  font-size:20px;
+  width:90%;
+  background-color:#D5C9C9;
+  color: black;
+  padding: auto;
+  margin: auto;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+.ContactInfo{
+  font-size:20px;
+  width:90%;
+  background-color:white;
+  color: black;
+  padding: auto;
+  margin: auto;
+  border: none;
+}
+input[type=file]{
+  width:auto;
+  border: none;
+  color:black;
+  padding: auto;
+  float:left;
+  text-decoration: none;
+  font-size: 10px;
+  margin: auto;
+  cursor: pointer;
+  }
+input[type=password] {
+  border: none;
+  font-size: 16px;
+  margin: auto;
+  display:-ms-flexbox;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+input[type=text] {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+label {
+  margin-bottom: 10px;
+  display: block;}
+table, th, td {
+  border: none;
+  border-collapse: collapse;
+  text-align: center;
+  border-spacing: 5px;
+  padding: 1px;}
+table#Klasse tr:nth-child(even) {
+  background-color: #eee;}
+table#Klasse tr:nth-child(odd) {
+  background-color: #fff;}
+table#Klasse th {
+  background-color: #5e5e5e;
+  color: white;}
+#Schatten{
+  webkit-box-shadow: 30px 32px 90px -11px rgba(99,125,116,0.60);
+  moz-box-shadow: 30px 32px 90px -11px rgba(99,125,116,0.60);
+  box-shadow: 30px 32px 90px -11px rgba(99,125,116,0.60);
+  background-color:#ffffff;
+  border-radius: 20px;
+}
+#Bild{
+  border-radius: 10px;
+  display:block;
+  margin:0 auto;}
+#Delete{
+  text-align: center;}
+#ShowMore{
+  float:right;}
+.center{
+  text-align: center;}

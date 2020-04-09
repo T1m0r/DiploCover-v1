@@ -1,0 +1,6 @@
+# robots.txt zu https://www.diplocover.at
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.diplocover.at/sitemap.xml

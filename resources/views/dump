@@ -1,0 +1,5 @@
+
+                        <div class="form-group">
+                            {!! Form::label('teacher', 'Select School Operator:') !!}
+                            {!! Form::select('teacher', $teacher,null,['class'=>'form-control']) !!}
+                        </div>
